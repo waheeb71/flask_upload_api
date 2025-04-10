@@ -1,8 +1,6 @@
 
 
----
 
-```markdown
 # 📁 Flask File Upload API
 
 A lightweight Flask REST API for uploading images and videos, organizing them into folders by section, and generating unique filenames.
@@ -22,7 +20,7 @@ A lightweight Flask REST API for uploading images and videos, organizing them in
 ## 🔧 How to Use
 
 ### 📤 Endpoint:
-```
+
 POST https://yourusername.pythonanywhere.com/upload
 ```
 
