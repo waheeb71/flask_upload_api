@@ -41,10 +41,10 @@ with open(file_path, 'rb') as f:
     response = requests.post(url, files=files, data=data)
 
 if response.status_code == 200:
-    print("✅ Uploaded successfully!")
+    print(" Uploaded successfully!")
     print("File URL:", response.json().get("url"))
 else:
-    print("❌ Upload failed:", response.text)
+    print(" Upload failed:", response.text)
 ```
 
 ---
@@ -71,7 +71,7 @@ Future<String?> uploadImageToServer(File imageFile, String section) async {
     final jsonData = jsonDecode(responseData);
     return jsonData['url']; // Image URL
   } else {
-    print("❌ Upload failed: ${response.statusCode}");
+    print(" Upload failed: ${response.statusCode}");
     return null;
   }
 }
@@ -132,10 +132,10 @@ with open(file_path, 'rb') as f:
     response = requests.post(url, files=files, data=data)
 
 if response.status_code == 200:
-    print("✅ تم رفع الصورة بنجاح!")
+    print("تم رفع الصورة بنجاح!")
     print("رابط الملف:", response.json().get("url"))
 else:
-    print("❌ فشل في الرفع:", response.text)
+    print(" فشل في الرفع:", response.text)
 ```
 
 ---
@@ -162,7 +162,7 @@ Future<String?> uploadImageToServer(File imageFile, String section) async {
     final jsonData = jsonDecode(responseData);
     return jsonData['url']; // رابط الصورة
   } else {
-    print("❌ فشل رفع الصورة: ${response.statusCode}");
+    print(" فشل رفع الصورة: ${response.statusCode}");
     return null;
   }
 }
