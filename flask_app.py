@@ -19,6 +19,30 @@ def allowed_file(filename):
 @app.route('/')
 def home():
     return '✅ السيرفر يعمل!'
+
+@app.route('/delete', methods=['POST'])
+def delete_file():
+    data = request.get_json()
+    if not data or 'file_url' not in data:
+        return jsonify({'error': 'يرجى إرسال رابط الملف'}), 400
+
+    file_url = data['file_url']
+    base_url = 'https://USERNAME.pythonanywhere.com/'
+
+    if not file_url.startswith(base_url):
+        return jsonify({'error': 'رابط الملف غير صالح'}), 400
+
+ 
+    relative_path = file_url.replace(base_url, '').strip('/')
+    file_path = os.path.join(os.getcwd(), relative_path)
+
+    if os.path.isfile(file_path):
+        os.remove(file_path)
+        return jsonify({'message': '✅ تم حذف الملف بنجاح'}), 200
+    else:
+        return jsonify({'error': 'الملف غير موجود'}), 404
+
+
 @app.route('/upload', methods=['POST'])
 def upload_file():
     if 'file' not in request.files or 'section' not in request.form:
