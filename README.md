@@ -86,9 +86,12 @@ For support, feel free to reach out:
 - Telegram: [@SyberSc71](https://t.me/SyberSc71)
 - Telegram: [@WAT4F](https://t.me/WAT4F)
 - GitHub: [waheeb71](https://github.com/waheeb71)
-- YouTube: [Cyber Code](https://www.youtube.com/@cyber_code1)
-- X (formerly Twitter): [@SyberSc](https://x.com/SyberSc)
-- Location: Taiz, Yemen
+- GitHub2: [cyberlangdev](https://github.com/cyberlangdev)
+- **Location:** I am from Yemen, Taiz.
+- **YouTube Channel:** [Cyber Code](https://www.youtube.com/@cyber_code1)
+- **X (formerly Twitter):** [@wa__cys](https://x.com/wa__cys)
+
+
 
 ---
 
@@ -177,9 +180,10 @@ Future<String?> uploadImageToServer(File imageFile, String section) async {
 - تليجرام: [@SyberSc71](https://t.me/SyberSc71)
 - تليجرام: [@WAT4F](https://t.me/WAT4F)
 - جيت هاب: [waheeb71](https://github.com/waheeb71)
-- يوتيوب: [Cyber Code](https://www.youtube.com/@cyber_code1)
-- منصة X: [@SyberSc](https://x.com/SyberSc)
-- الموقع: اليمن، تعز.
-```
+  جيب هاب2:[cyberlangdev](https://github.com/cyberlangdev)
+- **قناة اليوتيوب:** [Cyber Code](https://www.youtube.com/@cyber_code1)
+- **حسابي على منصة إكس (تويتر سابقًا):** [@wa__cys](https://x.com/wa__cys)
+
+
 
 ---
