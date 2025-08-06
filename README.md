@@ -94,6 +94,11 @@ For support, feel free to reach out:
 
 
 ---
+## 📄 License
+
+This project is released into the public domain under [The Unlicense](LICENSE).
+
+---
 
 # واجهة API لرفع الملفات باستخدام Flask
 
